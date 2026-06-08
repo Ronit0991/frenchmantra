@@ -10,8 +10,7 @@ const successMessage = document.getElementById("successMessage");
 
 /* GOOGLE SCRIPT URL */
 
-const scriptURL = "https://script.google.com/macros/s/AKfycbx0oK6oxUsJQ1MJV4fXg-6opkEFFDYa-jalw5g-cnMIBAl9aEpuxRY8URwtEN1OvzrIVA/exec";
-
+const scriptURL = "https://script.google.com/macros/s/AKfycbxQQbZ-gMk4R1TqSuoAdMT4M03Q1yZmZ0SmY98jYy44rH0_YYHvqqGf84V3mnVthbod/exec";
 form.addEventListener("submit", function(e){
 
   e.preventDefault();
