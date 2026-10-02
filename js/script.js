@@ -78,9 +78,10 @@ document.addEventListener("click", (e) => {
     return;
   }
 
+  const cardBanner = e.target.closest(".blog-card-banner");
   const cardTitle = e.target.closest(".blog-card-title");
-  if (cardTitle) {
-    const card = cardTitle.closest(".blog-card");
+  if (cardBanner || cardTitle) {
+    const card = (cardBanner || cardTitle).closest(".blog-card");
     if (card) {
       const articleId = card.getAttribute("data-article-id");
       openBlogArticle(articleId);
